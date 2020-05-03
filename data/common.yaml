@@ -1,0 +1,22 @@
+---
+sympl::domain::cgi_bin: false
+# sympl::domain::dns_ttl: 300
+sympl::domain::hsts: false
+sympl::domain::php_security: true
+sympl::domain::ssl_only: false
+# sympl::domain::ssl_provider: letsencrypt
+# sympl::domain::ssl_rsa_key_size: 2048
+# sympl::domain::ssl_selfsigned_lifetime: 365
+sympl::domain::stats: false
+sympl::domain_root: /srv
+sympl::domains: {}
+sympl::package_manage: true
+sympl::package_name: sympl-core
+sympl::php_lockdown: false
+sympl::puppet_warning: This file is managed by Puppet; changes will be overwritten
+sympl::repo_gpg_id: 836639CE20A8EEE38819E3309B08789E50401917
+sympl::repo_gpg_key_location: https://mirror.mythic-beasts.com/mythic/support@mythic-beasts.com.gpg.key
+sympl::repo_location: http://packages.mythic-beasts.com/mythic/
+sympl::repo_manage: true
+sympl::user_manage: true
+sympl::user_password_crypted: $1$SyWlOsAu$tdkHrc1XSSojGIrsoP9FY1 # Passw0rd

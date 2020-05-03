@@ -1,0 +1,32 @@
+{
+  "author": "Iain Hallam",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": ">= 6.2.0 < 8.0.0"
+    }
+  ],
+  "license": "Apache-2.0",
+  "name": "iainhallam-sympl",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "pdk-version": "1.17.0",
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "source": "https://github.com/iainhallam/puppet-sympl",
+  "summary": "Configure an installation of Sympl (https://sympl.host/)",
+  "template-ref": "tags/1.17.0-0-gd3a4319",
+  "template-url": "pdk-default#1.17.0",
+  "version": "0.1.0"
+}
